@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ImageCard extends Component {
     render() {
         return (
-            <div id='image_card' className="card max-w-xs">
+            <div id='image_card' className="card max-w-xs grid-item ">
                 <figure>
                     <img src="https://picsum.photos/id/1005/400/250"></img>
                 </figure> 
